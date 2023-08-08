@@ -13,7 +13,7 @@ function runEventListeners(){
 form.addEventListener("submit",search)
 clearButton.addEventListener("click",clear)
 }
-//yunuscan
+
 function clear(){
     searchInput.value="";
     Array.from(imageListWrapper.children).forEach((child)=>{
